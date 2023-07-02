@@ -1,8 +1,12 @@
-@import url('reset.css');
+@import url('global.css');
 
 body {
     font-size: 1.6rem;
-    background-color: #000;
+    background-color: var(--color-black);
+}
+
+p {
+    color: var(--color-white);
 }
 
 .banner {
@@ -15,7 +19,7 @@ body {
 }
 
 .banner-content {
-    color: white;
+    color: var(--color-white);
     width: 600px;
     margin: auto;
     text-align: center;
@@ -26,7 +30,7 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     color: transparent;
-    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background: -webkit-linear-gradient(var(--color-blue-300), var(--color-blue-500));
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -54,21 +58,21 @@ body {
 }
 
 .banner .banner-content button {
-    color: #31A8DD;
+    color: var(--color-blue-300);
     font-size: 1.6rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
     padding: 16px 32px;
     background-color: transparent;
-    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image: linear-gradient(var(--color-blue-300),var(--color-blue-600));
     border-image-slice: 10;
     border-radius: 30px;
 }
 
 h2 {
     font-size: 3.2rem;
-    color: #33A8DB;
+    color: var(--color-blue-300);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -80,7 +84,7 @@ section {
 }
 
 #course-content {
-    color: #ffffff;
+    color: var(--color-white);
     width: 800px;
     text-align: center;
 }
@@ -91,9 +95,9 @@ section {
 
 #course-content .modules-list .module {
     width: 530px;
-    color: white;
-    background-color: #252525;
-    border: 1px solid #33A8DB;
+    color: var(--color-white);
+    background-color: var(--color-black-300);
+    border: 1px solid var(--color-blue-300);
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
     margin: 0 auto 24px;
@@ -101,7 +105,7 @@ section {
 }
 
 #course-content .modules-list .module span {
-    color: #33A8DB;
+    color: var(--color-blue-300);
 }
 
 #transform-world {
@@ -109,22 +113,22 @@ section {
     background-image: url("../images/woman-code.png");
     background-size: cover;
     background-attachment: fixed;
-    border-top: 1px solid #33A8DB;
-    border-bottom: 1px solid #33A8DB;
+    border-top: 1px solid var(--color-blue-300);
+    border-bottom: 1px solid var(--color-blue-300);
     padding: 200px;
 }
 
 #transform-world p {
     max-width: 250px;
-    color: #ffffff;
+    color: var(--color-white);
     font-weight: 900;
     font-size: 4rem;
     text-transform: lowercase;
-    text-shadow: 3px 2px #33A8DB;
+    text-shadow: 3px 2px var(--color-blue-300);
 }
 
 #professional-challenges {
-    color: #ffffff;
+    color: var(--color-white);
     text-align: center;
     width: 800px;
 }
@@ -134,10 +138,10 @@ section {
 }
   
 footer {
-    color: #ffffff;
+    color: var(--color-white);
     text-align: center;
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
-    border-top: 1px solid #33A8DB;
+    border-top: 1px solid var(--color-blue-300);
     padding: 60px 0;
 }
   
@@ -146,7 +150,7 @@ footer .dio-logo {
 }
   
 footer a {
-    color: #33A8DB;
+    color: var(--color-blue-300);
     font-weight: bold;
     text-decoration: none;
 }

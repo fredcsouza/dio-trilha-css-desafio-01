@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
+  --color-black: #000;
+  --color-black-300: #252525;
+  --color-white: #fff;
+  --color-blue-300: #33A8DB;
+  --color-blue-500: #1472B7;
+  --color-blue-600: #1572B7;
 }
 
 * {
